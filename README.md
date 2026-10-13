@@ -71,14 +71,28 @@ Repositório destinado às atividades práticas da disciplina de Desenvolvimento
 3. Utilize um servidor local, como o servidor do Codespaces, caso necessário para executar o projeto.
 4. Certifique-se de estar conectado à internet para consultar as APIs externas.
 
-## 💭 Reflexão — Por que `Promise.all` pode ser mais rápido que vários `await` seguidos?
+## O que aprendi com o `Promise.all`?
 
-Quando utilizamos vários `await` sequencialmente, cada operação assíncrona espera a conclusão da anterior antes de começar. Isso pode aumentar o tempo total de execução.
+Uma coisa que entendi nessa atividade é que nem sempre precisamos esperar uma requisição terminar para começar outra.
 
-Com `Promise.all`, podemos iniciar várias operações assíncronas independentes em paralelo e aguardar que todas sejam concluídas. Dessa forma, o tempo de espera pode ser reduzido, especialmente em requisições de rede.
+Com vários `await` seguidos, as operações acontecem uma depois da outra. Já com `Promise.all`, dá para iniciar várias tarefas independentes ao mesmo tempo e esperar os resultados juntos. Isso pode economizar bastante tempo, principalmente quando trabalhamos com APIs.
 
-Porém, se uma das Promises rejeitar, o `Promise.all` rejeita também, mesmo que as outras operações ainda estejam em andamento.
+Só tem um detalhe: se uma das Promises falhar, o `Promise.all` também falha. Por isso, tratar erros continua sendo importante.
 
-## 🎯 Objetivo
+---
 
-Desenvolver conhecimentos fundamentais de desenvolvimento web, desde a estruturação e estilização de páginas até a programação JavaScript, manipulação do DOM, eventos, consumo de APIs e tratamento de operações assíncronas.
+## Sobre o projeto
+
+Esse repositório reúne as atividades que desenvolvi durante as aulas de Desenvolvimento Web. Comecei com o básico de HTML e CSS e avancei para JavaScript, manipulação do DOM e consumo de APIs.
+
+Ainda é parte do meu processo de aprendizado, mas cada atividade é uma oportunidade de praticar, errar, corrigir e entender melhor como as coisas funcionam na prática.
+
+**Tecnologias utilizadas**
+
+<p align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="42" alt="HTML5" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="42" alt="CSS3" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="42" alt="JavaScript" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="42" alt="Git" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="42" alt="GitHub" />
+</p>
