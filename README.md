@@ -2,45 +2,41 @@
 
 Repositório destinado às atividades práticas da disciplina de Desenvolvimento Web, com exercícios de HTML, CSS e JavaScript.
 
-## 📚 Atividades
 
-### Semana 01 — HTML
-- Estruturação de uma página de blog.
-- Criação de formulário de inscrição.
-- Utilização de elementos HTML.
+<h2>📚 Atividades desenvolvidas</h2>
 
-### Semana 02 — CSS e Flexbox
-- Estilização do formulário de inscrição.
-- Aplicação de cores, bordas, espaçamentos e fontes.
-- Organização dos campos com CSS Flexbox.
-- Adaptação do formulário para telas menores.
+<h3>🧱 Semana 01 — HTML</h3>
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="22" alt="HTML5">
+  Estrutura de um blog, elementos HTML e formulário de inscrição.
+</p>
 
-### Semana 03 — Introdução ao JavaScript
-- Variáveis, constantes e tipos primitivos.
-- Operador `typeof`, Template Literals e concatenação.
-- Funções declaradas, expressões e arrow functions.
-- Hoisting e parâmetros padrão.
-- Estruturas condicionais e laços de repetição.
+<h3>🎨 Semana 02 — CSS e Flexbox</h3>
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="22" alt="CSS3">
+  Estilização do formulário, cores, bordas, espaçamentos e organização com Flexbox.
+</p>
 
-### Semana 04 — Arrays, DOM e Eventos
-- Utilização de `forEach`, `map`, `filter` e `reduce`.
-- Manipulação do DOM com `querySelector`, `createElement` e `classList`.
-- Tratamento de eventos com `addEventListener`.
-- Event Delegation para lidar com elementos criados dinamicamente.
-- Manipulação de formulários e listas de tarefas.
+<h3>⚡ Semana 03 — Introdução ao JavaScript</h3>
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="22" alt="JavaScript">
+  Variáveis, tipos primitivos, funções, hoisting, condicionais e laços de repetição.
+</p>
 
-### Semana 05 — Objetos, Dados e Assincronismo
-- Validação e filtragem de pedidos utilizando arrays de objetos.
-- Cálculo do faturamento com `reduce` e formatação de valores com `toFixed(2)`.
-- Consumo da API ViaCEP utilizando `fetch`, Promises e `async/await`.
-- Validação de CEP e tratamento dos estados de carregamento, erro, não encontrado e sucesso.
-- Desenvolvimento de uma mini Pokédex com a API PokéAPI.
-- Manipulação dinâmica do DOM com `createElement` e `textContent`.
-- Utilização de `response.ok` para tratamento de erros HTTP.
+<h3>🧩 Semana 04 — Arrays, DOM e Eventos</h3>
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="22" alt="JavaScript">
+  Métodos <code>map</code>, <code>filter</code>, <code>reduce</code> e <code>forEach</code>, manipulação do DOM, eventos, Event Delegation e formulários dinâmicos.
+</p>
 
-##  Tecnologias utilizadas
+<h3>🌐 Semana 05 — Objetos, Dados e Assincronismo</h3>
+<p>
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="22" alt="JavaScript">
+  Validação de dados, Promises, <code>async/await</code>, Fetch API, consumo da ViaCEP e desenvolvimento de uma mini Pokédex com a PokéAPI.
+</p>
 
-<h2>🛠️ Tecnologias e ferramentas</h2>
+
+<h2>Tecnologias e ferramentas</h2>
 
 <p align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="55" alt="HTML5" title="HTML5">
