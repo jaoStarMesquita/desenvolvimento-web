@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog do João Vitor</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 750px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #f4f6f8;
+            color: #222;
+        }
+
+        main {
+            background: white;
+            padding: 25px;
+            border-radius: 12px;
+        }
+
+        h1 {
+            color: #3157a4;
+        }
+
+        input, button {
+            padding: 10px;
+            margin: 5px 0;
+            font-size: 15px;
+        }
+
+        button {
+            cursor: pointer;
+            background: #3157a4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+
+        li {
+            padding: 8px;
+            margin: 5px 0;
+            cursor: pointer;
+        }
+
+        .destaque {
+            background: #fff0b3;
+            font-weight: bold;
+        }
+
+        .feito {
+            color: #16803c;
+            text-decoration: line-through;
+        }
+
+        .texto {
+            color: #555;
+        }
+    </style>
+
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <main>
+        <h1 id="titulo">Meu Blog</h1>
+
+        <p class="texto">Praticando arrays em JavaScript.</p>
+        <p class="texto">Aprendendo a manipular o DOM.</p>
+
+        <h2>Minha lista</h2>
+
+        <ul id="lista">
+            <li>Primeiro item do HTML</li>
+            <li>Segundo item do HTML</li>
+            <li>Terceiro item do HTML</li>
+        </ul>
+
+        <h2>Testar eventos</h2>
+
+        <button id="botao" type="button">Clique aqui</button>
+
+        <div>
+            <label for="nome">Digite seu nome:</label><br>
+            <input type="text" id="nome" placeholder="Seu nome">
+        </div>
+
+        <h2>Adicionar tarefa</h2>
+
+        <form id="formulario">
+            <label for="tarefa">Nova tarefa:</label><br>
+            <input
+                type="text"
+                id="tarefa"
+                placeholder="Digite uma tarefa"
+            >
+            <button type="submit">Adicionar</button>
+        </form>
+
+        <p class="texto">
+            Dica: clique nos itens da lista para marcar ou desmarcar como concluídos.
+        </p>
+    </main>
+</body>
+</html>
