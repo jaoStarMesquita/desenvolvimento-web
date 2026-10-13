@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBlog - Tecnologia</title>
+</head>
+<body>
+    <header>
+        <h1>DevBlog</h1>
+        <nav aria-label="Navegação principal">
+            <a href="#inicio">Início</a>
+            <a href="#artigos">Artigos</a>
+            <a href="#inscricao">Inscrição</a>
+        </nav>
+    </header>
+
+    <main id="inicio">
+        <section id="artigos">
+            <h2>Artigos sobre tecnologia</h2>
+
+            <article>
+                <h2>Desenvolvimento Web</h2>
+                <p>O desenvolvimento web permite criar sites usando HTML, CSS e JavaScript.</p>
+                <img src="https://placehold.co/600x300?text=Desenvolvimento+Web"
+                     alt="Ilustração sobre desenvolvimento web">
+            </article>
+
+            <article>
+                <h2>Aprendendo Python</h2>
+                <p>Python é uma linguagem versátil usada em automação, análise de dados e inteligência artificial.</p>
+                <img src="https://placehold.co/600x300?text=Python"
+                     alt="Ilustração sobre programação Python">
+            </article>
+        </section>
+    </main>
+
+    <aside id="inscricao">
+        <h2>Inscreva-se no blog</h2>
+
+        <form method="get">
+            <fieldset>
+                <legend>Dados de inscrição</legend>
+
+                <p>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome"
+                           minlength="3" required>
+                </p>
+
+                <p>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                    <label for="idade">Idade:</label>
+                    <input type="number" id="idade" name="idade"
+                           min="18" max="120" required>
+                </p>
+
+                <p>
+                    <label for="assunto">Assunto:</label>
+                    <select id="assunto" name="assunto" required>
+                        <option value="">Selecione</option>
+                        <option value="html">HTML</option>
+                        <option value="python">Python</option>
+                        <option value="ia">Inteligência Artificial</option>
+                    </select>
+                </p>
+
+                <p>
+                    <input type="checkbox" id="termos" name="termos"
+                           value="sim" required>
+                    <label for="termos">Aceito os termos</label>
+                </p>
+
+                <button type="submit">Enviar inscrição</button>
+            </fieldset>
+        </form>
+    </aside>
+
+    <footer>
+        <p>DevBlog - Projeto acadêmico de Desenvolvimento Web.</p>
+    </footer>
+</body>
+</html>
