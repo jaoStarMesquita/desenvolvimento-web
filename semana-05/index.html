@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semana 05 | Dados e APIs</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px;
+            background: #f3f5f9;
+            color: #222;
+        }
+
+        header, section {
+            background: white;
+            padding: 24px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px #0000000d;
+        }
+
+        h1, h2 {
+            color: #3157a4;
+        }
+
+        input, button {
+            padding: 11px;
+            margin: 5px 0;
+            font-size: 15px;
+        }
+
+        input {
+            width: 100%;
+            max-width: 350px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+
+        button {
+            border: none;
+            border-radius: 6px;
+            background: #3157a4;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #24417c;
+        }
+
+        .resultado {
+            margin-top: 15px;
+            line-height: 1.7;
+            overflow-wrap: anywhere;
+        }
+
+        .pokemon {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .pokemon img {
+            width: 150px;
+            height: 150px;
+            object-fit: contain;
+        }
+
+        .mensagem {
+            color: #555;
+        }
+
+        .erro {
+            color: #b42318;
+        }
+
+        .sucesso {
+            color: #16803c;
+        }
+    </style>
+
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Desenvolvimento Web — Semana 05</h1>
+        <p>Objetos, validação de dados e consumo de APIs.</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>📦 Resumo dos pedidos</h2>
+            <p>Confira os pedidos pagos e o valor total das vendas.</p>
+            <div id="resultado-pedidos" class="resultado"></div>
+        </section>
+
+        <section>
+            <h2>📍 Consulta de CEP</h2>
+            <p>Digite um CEP brasileiro para consultar o endereço.</p>
+
+            <form id="form-cep">
+                <label for="cep">CEP:</label><br>
+                <input
+                    type="text"
+                    id="cep"
+                    placeholder="Ex.: 01001000"
+                    inputmode="numeric"
+                    maxlength="9"
+                >
+                <br>
+                <button type="submit">Consultar CEP</button>
+            </form>
+
+            <div id="resultado-cep" class="resultado" aria-live="polite"></div>
+        </section>
+
+        <section>
+            <h2>🎮 Mini Pokédex</h2>
+            <p>Pesquise um Pokémon pelo nome ou número da Pokédex.</p>
+
+            <form id="form-pokemon">
+                <label for="pokemon">Nome ou número:</label><br>
+                <input
+                    type="text"
+                    id="pokemon"
+                    placeholder="Ex.: pikachu ou 25"
+                >
+                <br>
+                <button type="submit">Buscar Pokémon</button>
+            </form>
+
+            <div id="resultado-pokemon" class="resultado" aria-live="polite"></div>
+        </section>
+    </main>
+</body>
+</html>
