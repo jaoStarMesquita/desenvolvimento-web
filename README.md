@@ -38,18 +38,35 @@ Repositório destinado às atividades práticas da disciplina de Desenvolvimento
 - Manipulação dinâmica do DOM com `createElement` e `textContent`.
 - Utilização de `response.ok` para tratamento de erros HTTP.
 
-## 🛠️ Tecnologias utilizadas
-<p align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="45" alt="HTML5">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="45" alt="CSS3">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="45" alt="JavaScript">
+##  Tecnologias utilizadas
+
+<h2>🛠️ Tecnologias e ferramentas</h2>
+
+<p align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="55" alt="HTML5" title="HTML5">
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="55" alt="CSS3" title="CSS3">
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="55" alt="JavaScript" title="JavaScript">
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" width="55" alt="Node.js" title="Node.js">
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="55" alt="Git" title="Git">
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="55" alt="GitHub" title="GitHub">
+  &nbsp;&nbsp;
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="55" alt="Visual Studio Code" title="Visual Studio Code">
 </p>
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- Fetch API
-- APIs REST: ViaCEP e PokéAPI
-- Git e GitHub
+
+<p align="center">
+  <strong>HTML5 · CSS3 · JavaScript · Node.js · Git · GitHub · VS Code</strong>
+</p>
+
+<p align="center">
+  <strong>Recursos estudados:</strong><br>
+  Flexbox · DOM · Eventos · Arrays · Promises · Async/Await · Fetch API · APIs REST · ViaCEP · PokéAPI
+</p>
+
 
 ## ▶️ Como executar
 
