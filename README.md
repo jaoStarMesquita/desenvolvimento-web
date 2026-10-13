@@ -3,33 +3,33 @@
 Repositório destinado às atividades práticas da disciplina de Desenvolvimento Web, com exercícios de HTML, CSS e JavaScript.
 
 
-<h2>📚 Atividades desenvolvidas</h2>
+<h2>Atividades desenvolvidas</h2>
 
-<h3>🧱 Semana 01 — HTML</h3>
+<h3>Semana 01 — HTML</h3>
 <p>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="22" alt="HTML5">
   Estrutura de um blog, elementos HTML e formulário de inscrição.
 </p>
 
-<h3>🎨 Semana 02 — CSS e Flexbox</h3>
+<h3>Semana 02 — CSS e Flexbox</h3>
 <p>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="22" alt="CSS3">
   Estilização do formulário, cores, bordas, espaçamentos e organização com Flexbox.
 </p>
 
-<h3>⚡ Semana 03 — Introdução ao JavaScript</h3>
+<h3>Semana 03 — Introdução ao JavaScript</h3>
 <p>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="22" alt="JavaScript">
   Variáveis, tipos primitivos, funções, hoisting, condicionais e laços de repetição.
 </p>
 
-<h3>🧩 Semana 04 — Arrays, DOM e Eventos</h3>
+<h3>Semana 04 — Arrays, DOM e Eventos</h3>
 <p>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="22" alt="JavaScript">
   Métodos <code>map</code>, <code>filter</code>, <code>reduce</code> e <code>forEach</code>, manipulação do DOM, eventos, Event Delegation e formulários dinâmicos.
 </p>
 
-<h3>🌐 Semana 05 — Objetos, Dados e Assincronismo</h3>
+<h3>Semana 05 — Objetos, Dados e Assincronismo</h3>
 <p>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" width="22" alt="JavaScript">
   Validação de dados, Promises, <code>async/await</code>, Fetch API, consumo da ViaCEP e desenvolvimento de uma mini Pokédex com a PokéAPI.
